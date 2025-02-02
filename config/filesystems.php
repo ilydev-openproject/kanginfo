@@ -63,7 +63,7 @@ return [
         'gambar' => [
             'driver' => 'local',
             'root' => storage_path('app/public/gambar'),
-            'url' => env('APP_URL') . 'storage/gambar',
+            'url' => env('APP_URL') . '/storage/gambar',
             'visibility' => 'public',
             'throw' => false,
             'report' => false,
@@ -72,7 +72,7 @@ return [
         'gambar_thumb' => [
             'driver' => 'local',
             'root' => storage_path('app/public/gambar/thumb'),
-            'url' => env('APP_URL') . 'storage/gambar/thumb',
+            'url' => env('APP_URL') . '/storage/gambar/thumb',
             'visibility' => 'public',
             'throw' => false,
             'report' => false,
@@ -81,7 +81,7 @@ return [
         'photo' => [
             'driver' => 'local',
             'root' => storage_path('app/public/photo'),
-            'url' => env('APP_URL') . 'storage/photo',
+            'url' => env('APP_URL') . '/storage/photo',
             'visibility' => 'public',
             'throw' => false,
             'report' => false,
