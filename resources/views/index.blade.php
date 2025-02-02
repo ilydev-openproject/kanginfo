@@ -250,6 +250,7 @@
                 </div>
                 <div class="blog-list my-[32px]">
                     @foreach($posts as $post)
+                    <div class="gambar"></div>
                     @endforeach
                 </div>
             </div>
